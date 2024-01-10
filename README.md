@@ -1,10 +1,8 @@
-<p align="center">
-    <img src="https://www.ionos.co.uk/digitalguide/fileadmin/DigitalGuide/Teaser/html-tagst.jpg" height="400px">
-</p>
-
 # Webovky
 
-Jednoduchý github repozitář z hodin elektronického publikování na mojí škole
+    ![Obrázek se symboly HTML](https://www.ionos.co.uk/digitalguide/fileadmin/DigitalGuide/Teaser/html-tagst.jpg)
+
+Jednoduchý github repozitář z hodin elektronického publikování na mojí škole,  ve keterém se učíme základy HTML a CSS při tvorbě jednoduchých webových stránek.
 
 ## Odkazy
 

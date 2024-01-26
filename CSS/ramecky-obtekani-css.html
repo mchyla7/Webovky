@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <title>Obtékání rámečků</title>
+        <style>
+            body {
+                background-color: rgb(238, 198, 67);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            h1 {
+                color: rgb(20, 20, 20);
+                text-align: center;
+                text-decoration: underline;
+                font-style: italic;
+            }
+            p {
+                text-align: justify;
+            }
+            h2 {
+                padding: 5px;
+                background-color: rgb(238, 240, 242);
+                color: rgb(126, 137, 202);
+                text-align: center;
+                margin:  30px;
+                border: 3px rgb(13, 33, 161) dotted;
+            }
+            .text {
+                background-color: rgb(57, 117, 212);
+                padding: 5px 6px 5px 6px;
+            }
+            .text2 {
+                background-color: rgba(14, 60, 134, 0.37);
+                padding: 3px 9px 0px 12px;
+            }
+            .obtekanilevo {
+                float: left;
+                margin: 0px 20px 20px 0px;
+                padding: 0px 20px 20px 0px;
+            }
+            .neobtekat {
+                clear: both;
+            }
+            .obtekanipravo {
+                float: right;
+                margin: 0px 20px 20px 0px;
+                padding: 0px 0px 20px 2%;
+            }
+            .ramecek {
+                border: 20px rgb(2, 5, 22) dotted;
+                padding: 10px;
+                margin: 20px;
+            }
+            .clearfix {
+                clear: both;
+                display: table;
+                content: "";
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <h1>Nadpis 1</h1>
+        <div class="ramecek clearfix">
+            <img src="images/kocka.jpg" alt="Kočka"  class="obtekanilevo">
+            <img src="images/kocka.jpg" alt="Kočka"  class="obtekanipravo">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate vel minima voluptatum nulla animi voluptas recusandae fugiat, rerum saepe minus distinctio consequatur, repellendus, quas amet ipsa quasi similique placeat ipsum.</p>
+        </div>
+        
+
+        <h2 class="neobtekat">Nadpis 1.1</h2>
+
+        <div class="text">
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus architecto vel iusto, nobis quia rem, quidem eveniet illum sequi nihil error mollitia? Voluptatum dolorum doloribus iusto rerum totam mollitia libero.</p>
+
+            <p><span class="text2" style="text-decoration: underline;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</span> Ducimus architecto vel iusto, nobis quia rem, quidem eveniet illum sequi nihil error mollitia? Voluptatum dolorum doloribus iusto rerum totam mollitia libero.</p>
+
+            <h3>Nadpis 1.1.1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus architecto vel iusto, nobis quia rem, quidem eveniet illum sequi nihil error mollitia? Voluptatum dolorum doloribus iusto rerum totam mollitia libero.</p>
+
+            <div class="text2">
+
+                <h3>Nadpis 1.1.2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus architecto vel iusto, nobis quia rem, quidem eveniet illum sequi nihil error mollitia? Voluptatum dolorum doloribus iusto rerum totam mollitia libero.</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, fuga in. Sunt, sequi, in repellendus beatae iure, deserunt velit eos fuga culpa autem exercitationem. Quos deserunt dolore suscipit officiis repellendus!</p>
+            </div>
+        </div>
+
+        <h2 style="border: none;">Nadpis 1.2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus architecto vel iusto, nobis quia rem, quidem eveniet illum sequi nihil error mollitia? Voluptatum dolorum doloribus iusto rerum totam mollitia libero.</p>
+
+
+        <h3>Nadpis 1.2.1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus architecto vel iusto, nobis quia rem, quidem eveniet illum sequi nihil error mollitia? Voluptatum dolorum doloribus iusto rerum totam mollitia libero.</p>
+
+        <h1>Nadpis 2</h1>
+
+        <h2>Nadpis 2.1</h2>
+        <p style="white-space: pre;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate vel minima voluptatum nulla animi voluptas recusandae fugiat, rerum saepe minus distinctio consequatur, repellendus, quas amet ipsa quasi similique placeat ipsum.</p>
+    </body>
+</html>

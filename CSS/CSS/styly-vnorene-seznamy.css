@@ -1,0 +1,16 @@
+body {
+    background: rgb(252, 252, 142);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h1 {
+    color: whitesmoke;
+    border: 10px solid black;
+    background: darkred;
+    padding: 10px;
+}
+h2 {
+    color: darkred;
+    text-decoration: underline blue;
+    
+}

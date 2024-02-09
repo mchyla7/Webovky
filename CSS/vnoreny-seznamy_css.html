@@ -2,81 +2,19 @@
 <html lang="cs">
     <head>
         <meta charset="UTF-8">
-        <title>Seznamy</title>
+        <title>Vnořené seznamy</title>
+        <link rel="stylesheet" href="./CSS/styly-vnorene-seznamy.css">
     </head>
 
     <body>
-        <a href="/Zaklady-Chyla/index-Chyla.html">Návrat na index</a>
-        
-        <h1> Nečíslový seznam</h1>
-        <h2>Barvy: </h2>
-        
-        <ul>
-            <li>červená</li>
-            <li>modrá</li>
-            <li>žlutá</li>
-            <li>zelená</li>
-        </ul>
-        <h2>Barvy: </h2>
-        <ul type="square">
-            <li>červená</li>
-            <li>modrá</li>
-            <li>žlutá</li>
-            <li>zelená</li>
-        </ul>
-        <h2>Barvy: </h2>
-        <ul type="circle">
-            <li>červená</li>
-            <li>modrá</li>
-            <li>žlutá</li>
-            <li>zelená</li>
-        </ul>
 
-        <h1>Čislované seznamy</h1>
-        <h2>Odpady</h2>
-        <ol>
-            <li>papír</li>
-            <li>plast</li>
-            <li>bílé sklo</li>
-            <li>barevné sklo</li>
-            <li>železo</li>
-            <li>bio odpad</li>
-        </ol>
-
-        <h2>Odpady</h2>
-        <ol type="A">
-            <li>papír</li>
-            <li>plast</li>
-            <li>bílé sklo</li>
-            <li>barevné sklo</li>
-            <li>železo</li>
-            <li>bio odpad</li>
-        </ol>
-
-        <h2>Odpady</h2>
-        <ol type="1">
-            <li>papír</li>
-            <li>plast</li>
-            <li>bílé sklo</li>
-            <li>barevné sklo</li>
-            <li>železo</li>
-            <li>bio odpad</li>
-        </ol>
-
-        <h2>Odpady</h2>
-        <ol type="a">
-            <li>papír</li>
-            <li>plast</li>
-            <li>bílé sklo</li>
-            <li>barevné sklo</li>
-            <li>železo</li>
-            <li>bio odpad</li>
-        </ol>
-    
         <h1>Vnořený seznam</h1>
+
+        <!-- Správně napsaný HTML kód -->
+
         <ol>
             <li>Evropa
-                <ol type="a">
+                <ol>
                     <li>Česká republika
                         <ul>
                             <li>Praha</li>
@@ -110,6 +48,40 @@
             </li>
         </ol>
 
+        <h1>Vnořený seznam 2</h1>
 
+        <!-- Chybně napsaný HTML kód -->
+
+        <ol>
+            <li>Evropa </li>
+                <ol>
+                    <li>Česká republika </li>
+                        <ul>
+                            <li>Praha</li>
+                            <li>Brno</li>
+                            <li>Ostrava</li>
+                        </ul>
+                    <li>Slovensko </li>
+                        <ul>
+                            <li>Bratislava</li>
+                            <li>Zvolen</li>
+                        </ul>
+                </ol>
+            <li>Asie </li>
+                <ol>
+                    <li>Japonsko </li>
+                        <ul>
+                            <li>Tokio</li>
+                            <li>Fukušima</li>
+                        </ul>
+                    <li>Indie </li>
+                        <ul>
+                            <li>Bratislava</li>
+                            <li>Zvolen</li>
+                        </ul>
+                </ol>
+        </ol>
+        
     </body>
+
 </html>

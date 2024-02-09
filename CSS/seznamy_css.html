@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <title>Seznamy - CSS</title>
+        <style>
+            body {
+                background: yellow;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                
+            }
+            h1 {
+                color: whitesmoke;
+                border: 10px solid black;
+                background: darkred;
+                padding: 10px;
+            }
+            h2 {
+                color: darkred;
+                text-decoration: underline blue;
+                
+            }
+            .odrazka1 {
+                list-style-type: square;
+                color: darkmagenta;
+            }
+            .bezodrazky {
+                list-style-type: none;
+                color: darkblue;
+            }
+            .bezcislovani, .bezodrazky li {
+                list-style-type: none;
+            }
+            .odrazka3 {
+                list-style-image: url(images/odrazka.png);
+                padding: 0px 0px 0px 100px;
+            }
+            .odrazka3 li {
+                padding: 0px 0px 0px 100px;
+            }
+            .odrazkabezcislovani li {
+                list-style-type: lower-latin;
+            }
+            .bezcislovani li {
+                list-style-type: none;
+                letter-spacing: 5px;
+            }
+            .odrazka-out {
+                list-style-position: outside;
+            }
+            .odrazka-in {
+                list-style-position: inside;
+            }
+            .odrazka-in, .odrazka-out {
+                background-color: aqua;
+                border: 10px solid black;
+                width: 600px;
+            }
+            .odrazka-in li, .odrazka-out li{
+                background-color: aqua;
+                border: 5px solid rgb(209, 19, 19);
+                width: 600px;
+                padding: 5px;
+                margin: 10px 0px 10px 0px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1> Nečíslový seznam</h1>
+
+        <h2>Barvy: </h2>
+        
+
+        <ul class="odrazka1">
+            <li>červená</li>
+            <li>modrá</li>
+            <li>žlutá</li>
+            <li>zelená</li>
+        </ul>
+
+
+        <ul class="bezodrazky">
+            <li>červená</li>
+            <li>modrá</li>
+            <li>žlutá</li>
+            <li>zelená</li>
+        </ul>
+
+
+        <ul class="odrazka3">
+            <li>červená</li>
+            <li>modrá</li>
+            <li>žlutá</li>
+            <li>zelená</li>
+        </ul>
+
+        <h1>Čislované seznamy</h1>
+
+        <h2>Odpady</h2>
+        <ol>
+            <li>papír</li>
+            <li>plast</li>
+            <li>bílé sklo</li>
+            <li>barevné sklo</li>
+            <li>železo</li>
+            <li>bio odpad</li>
+        </ol>
+
+        <ol class="bezcislovani">
+            <li>papír</li>
+            <li>plast</li>
+            <li>bílé sklo</li>
+            <li>barevné sklo</li>
+            <li>železo</li>
+            <li>bio odpad</li>
+        </ol>
+
+        <!-- Použití stylu: list-style-position -->
+        <ol class="odrazka-out">
+            <li>papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír </li>
+            <li>plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast </li>
+            <li>bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo </li>
+        </ol>
+
+        <ol class="odrazka-in">
+            <li>papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír papír </li>
+            <li>plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast plast </li>
+            <li>bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo bílé sklo </li>
+        </ol>
+        
+    </body>
+
+</html>

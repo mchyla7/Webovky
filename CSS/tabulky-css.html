@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabulky</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            border: 1px;
+            width: 300px;
+        }
+        th, td{
+            border: 1px solid blue;
+            padding: 1%;
+        }
+        thead{
+            background-color: lightblue;
+        }
+        thead th{
+            padding: 2%;
+        }
+    </style>
+</head>
+<body>
+
+
+    <table >
+    <caption>Základní tabulka</caption>
+    <thead>
+        <tr>
+            <th scope="col">Název sloupce</th>
+            <th>Název sloupce 1</th>
+            <th>Název sloupce 2</th>
+            <th>Název sloupce 3</th>
+        </tr>
+    </thead>
+<!--1-->        
+        <tr>
+            <th>Název řádku 1</th>
+            <td>buňka 11</td>
+            <td>buňka 12</td>
+            <td>buňka 13</td>
+
+<!--2-->
+        </tr>
+        <tr>
+            <th>Název řádku 2</th>
+            <td>buňka 21</td>
+            <td>buňka 22</td>
+            <td>buňka 23</td>
+
+<!--2-->
+        </tr>
+        <tr>
+            <th>Název řádku 3</th>
+            <td>buňka 31</td>
+            <td>buňka 32</td>
+            <td>buňka 33</td>
+
+<!--3-->
+        </tr>
+        <tr>
+            <th>Celkem</th>
+            <td>buňka 41</td>
+            <td>buňka 42</td>
+            <td>buňka 43</td>
+        </tr>
+<!--3-->
+
+
+
+
+    </table>
+    
+    <table>
+        <caption>Základní tabulka</caption>
+        <thead>
+            <tr>
+                <th scope="col">Název sloupce</th>
+                <th scope="col">Název sloupce 1</th>
+                <th scope="col" colspan="2">sloučení sloupce 2 a 3</th>
+                
+            </tr>
+        </thead>
+    <!--1-->        
+            <tr>
+                <th scope="row">Název řádku 1</th>
+                <td>buňka 11</td>
+                <td>buňka 12</td>
+                <td rowspan="2">sloučení buňek 13 a 23</td>
+    <!--2--></tr>
+            <tr>
+                <th scope="row" rowspan="2">Název řádku 2 a 3</th>
+                <td>buňka 21</td>
+                <td>buňka 22</td>
+    <!--2--></tr>
+            <tr>
+                <td colspan="2">sloučení buňek 31 a 32</td>
+                <td>buňka 33</td>
+            </tr> 
+        </table>
+
+        <table>
+        <caption>Zvířátka
+        </caption>
+
+
+        <thead>
+            <tr>
+                <th colspan="2" scope="col">Obrázky zvířat
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="images/klokan.jpg" alt="klokan" width="150" height="113"></td>
+                <td><img src="images/kocka.jpg" alt="kočička" width="150" height="123"></td>
+            </tr>
+        </thead>
+        
+        </table>
+
+    </body>
+</html>

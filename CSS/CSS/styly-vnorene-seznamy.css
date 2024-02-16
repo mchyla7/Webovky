@@ -14,3 +14,30 @@ h2 {
     text-decoration: underline blue;
     
 }
+    /* První úroveň */
+ol { 
+    list-style-type: upper-latin;
+}
+    /* Druhá úroveň */
+ol ol {       
+    list-style-type: decimal;
+}
+    /* Třetí úroveň */
+ol ol ol {
+    list-style-type: disc;
+    padding-left: 100px;
+}
+ol ol ul li {
+    padding-left: 10 px;
+}
+.odrazka {
+    background-color: aqua;
+    border: 1px solid black;
+    width: 300px;
+}
+.odrazka {
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 5px
+    margin 5px
+}

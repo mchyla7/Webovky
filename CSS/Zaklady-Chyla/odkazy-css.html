@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang='cs'>
+
+  <head>
+    <title>Možnoti odkazů</title>
+    <meta charset='utf-8'>
+    <style>
+      body {
+        background-color: darkslategrey;
+      }
+      .radek1 a {
+        color: red;
+        border: 1px solid red;
+        padding: 5px;
+        text-decoration: none;
+        display: inline;
+        width: 100px;
+      }
+      .radek2 a {
+        color: red;
+        border: 1px solid red;
+        padding: 5px;
+        text-decoration: none;
+        display: inline-block;
+        width: 100px;
+      }
+      .sloupec a {
+        color: red;
+        border: 1px solid red;
+        padding: 5px;
+        text-decoration: none;
+        display: block;
+        width: 100px;
+      }
+      a:hover {
+        color: yellow;
+      }
+      a:visited {
+        color: black;
+      }
+      a:link {
+        color: red;
+      }
+      a:active {
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+  
+  <h1> Příklad odkazu do řádku použití display: inline</h1>
+  <h2>Zvířata</h2>
+   <div class="radek1">
+  <a href="#a">Opice</a> 
+  <a href="#b">Slon</a> 
+  <a href="#c">Medvěd</a> 
+  <a href="#d">Žirafa</a> 
+  </div>
+  <hr>
+  
+  <h1> Příklad odkazu do řádku použití display: inline-block</h1>
+  <h2>Zvířata</h2>
+ <div class="radek2">
+  <a href="#e">Opice</a> 
+  <a href="#f">Slon</a> 
+  <a href="#g">Medvěd</a> 
+  <a href="#h">Žirafa</a> 
+  <hr>
+ </div>
+   <h1> Příklad odkazu do sloupce</h1>
+  <h2>Zvířata</h2>
+  <div class="sloupec">
+  <a href="#i">Opice</a> 
+  <a href="#j">Slon</a> 
+  <a href="#k">Medvěd</a> 
+  <a href="#l">Žirafa</a> 
+  </div>
+     <hr>
+  </body>
+
+</html>

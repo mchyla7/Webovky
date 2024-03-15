@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+  <head>
+    <title>Pozicování, přetečení obsahu</title> 
+    <meta charset='utf-8'>
+    <style>
+      #container {
+        margin: 0 auto;
+        border: 1px solid black;
+        width: 700px;
+        padding: 20px;
+      }
+      .img-rel {
+        position: relative;
+        left: 700px;
+        top: 100px;
+      }
+      .img-rel:hover {
+        left: 200px;
+      }
+      .img-abs {
+        position: absolute;
+        top: 500px;
+        left: 100px;
+        z-index: -1;
+      }
+      .img-fix {
+        position: fixed;
+        bottom: 50px;
+        left: 50px;
+      }
+
+    </style>
+
+ 
+  </head>
+
+  <body>
+    <div id="container">
+      <h1>První nadpis</h1>
+      <img src="./obr/flyingbird_s.png" alt="Ptáček1" height="200" width="314" class="img-rel">
+        
+      <p>Lorem ipsum dolor sit amet consectetuer massa quis at vitae scelerisque. Id condimentum orci egestas laoreet Vivamus dui Duis wisi ac non. Sed vitae Pellentesque nec a quis lacinia natoque vel libero platea. Lacus enim lorem at iaculis eu nunc velit vestibulum Morbi Curabitur. Curabitur lobortis et parturient Curabitur commodo convallis auctor dapibus quis molestie. Augue Aenean laoreet Phasellus et lacus congue accumsan Nulla semper orci. Enim.</p>
+      <p>Nam vestibulum nunc dui Pellentesque convallis lacinia amet urna at convallis. Volutpat condimentum tincidunt eu Integer montes semper interdum tortor ante sem. Quisque neque tortor ac sed turpis aliquam sagittis congue quis pretium. Sapien lacus libero vitae feugiat elit Nam risus penatibus auctor pellentesque. Quis tincidunt Sed Sed arcu Aenean semper leo et nunc pede. Pulvinar faucibus consequat enim Suspendisse dis vitae libero id lobortis.</p>
+      
+      <h1>Druhý nadpis</h1>
+      <img src="./obr/greenbird_s.png" alt="Ptáček2" height="200" width="277" class="img-abs">
+      
+      <p>Faucibus vestibulum Vivamus adipiscing wisi pellentesque tellus ac vitae quis tristique. Aenean in tempor neque ante pede ante tortor Sed nonummy elit. Pellentesque nunc pretium tincidunt semper at accumsan tristique ipsum In dapibus. Vestibulum sapien interdum enim orci interdum risus nulla elit condimentum at. Eu pellentesque vel urna adipiscing tincidunt condimentum Maecenas malesuada id dignissim. Justo.</p>
+      
+      <h2>Podnadpis</h2>
+      
+      <p>Nam lorem ut et augue congue feugiat amet Quisque habitant pretium. Auctor interdum nibh enim convallis Proin Vivamus dolor non vitae sem. Ridiculus pretium felis rutrum id et a pede tempus eleifend at. Sit consectetuer interdum vitae id magnis eros libero sagittis convallis non. Curabitur et iaculis sem convallis ac nibh Nulla ac sociis tempor. Justo tristique cursus.</p>
+      <p>Eget dolor elit Lorem elit id convallis nulla urna In Vivamus. Vitae sit cursus pretium felis tortor Fusce eget pharetra vel semper. Sed convallis pretium et felis Vestibulum et Phasellus ac ridiculus nonummy. Pede congue gravida tortor sed est Maecenas Phasellus a elit Suspendisse. Curabitur sit lacus mauris Aenean pellentesque lacinia nibh id tortor tristique. A morbi nibh vel elit eget et Phasellus neque odio vitae. Tincidunt massa.</p>
+      <p>Aliquet sed netus tincidunt nibh est Vivamus wisi velit semper nec. Ultrices a aliquet lacinia sollicitudin amet wisi porttitor libero porta enim. Vel sed dictum congue montes augue sapien morbi id nibh dapibus. Convallis venenatis id nibh Phasellus sapien eget odio justo turpis auctor. Enim laoreet et fames justo Pellentesque tincidunt interdum.</p>
+      
+      <h1>Třetí nadpis</h1>
+      <img src="./obr/papouch_xs.png" alt="Ptáček3" height="200" width="160" class="img-fix">
+      
+      <p>Vitae euismod auctor ipsum at risus ac Vestibulum lacinia et consequat. Pretium turpis ornare Suspendisse Nulla lobortis sed et tellus sem tempus. Quis volutpat neque quis Sed Vestibulum ac massa Nunc Morbi eros. Vivamus orci laoreet Nullam Nam Nullam venenatis Curabitur congue enim id. Wisi quis felis id sagittis Ut est elit Maecenas elit massa. Curabitur urna.</p>
+      <p>Molestie mauris condimentum facilisi at Vestibulum sollicitudin Sed auctor eu augue. Consectetuer consequat semper consequat eros id nibh mauris mattis dui ipsum. Nulla mi sem pharetra lacinia Phasellus quis risus vitae In id. Convallis semper habitant aliquam lobortis est et pellentesque Integer consectetuer non. Vitae hendrerit tortor Sed sagittis tempus feugiat vitae Nullam libero laoreet. Pellentesque.</p>
+    </div>
+  </body>
+</html>

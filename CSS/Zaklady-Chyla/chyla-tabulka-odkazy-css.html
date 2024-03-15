@@ -1,46 +1,87 @@
 <!DOCTYPE html>
-<html lang="cs">
-    <head>
-        <meta charset="UTF-8">
-        <title>Document</title>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 700px;
+        }
 
+        caption{
+            color: red;
+            font-size: 30px;
+            padding: 24px;
+        }
+
+        th,td{
+            border: 1px solid red;
+            text-align: center;
+            padding: 10px;
+
+        }
+        thead th{
+            
+            background-color: grey;
+            text-align: center;
+        }
+        .nahoredole{
+            border-right: 2px red solid;
+            border-bottom: 2px red solid;
+        }
+        .jenomdole{
+            border-bottom: 2px red solid;
+        }
+        a:link{
+            text-decoration: none;
+            color: red;
+        }
+        a:visited{
+            color: red;
+        }
+        a:hover{
+            color: blue;
+        }
+
+
+
+    </style>
+
+</head>
     <body>
         <table>
-            <caption>Televizní program</caption>
-
+            <caption>Televizni Program</caption>
             <thead>
-                <tr>
-                    <th>Čas</th>
-                    <th>Po</th>
-                    <th>Út</th>
-                    <th>St<th>
-                </tr>
+            <tr>
+            <th class="nahoredole" scope="col">Cas</th>
+            <th class="jenomdole" scope="col">Po</th>
+            <th class="jenomdole" scope="col">Ut</th>
+            <th class="jenomdole" scope="col">St</th>
+            </tr>
             </thead>
 
             <tbody>
                 <tr>
-                    <th>8:00</th>
-                    <td>Snídaně s Novou</td>
-                    <td>Receptář</td>
+                <th scope="row">8:00</th>
+                <td><a class="tvnova" href="https://tv.nova.cz/">Snidane s novou</a></td>
+                <td colspan="2">Receptar</td>
                 </tr>
 
                 <tr>
-                    <th>9:00</th>
-                    <td>Mr. Bean</td>
-                    <td>Jste to, co víte</td>
-                    <td>Film týdne</td>
+                    <th scope="row">9:00</th>
+                    <td>Mr.Bean</td>
+                    <td>Jste to, co jite</td>
+                    <td rowspan="2">Film tydne</td>
                 </tr>
-
                 <tr>
-                    <th>10:00</th>
-                    <td>Po stopách zločinů</td>
-                    <td>To je vražda, napsala</td>
-                    <td>Film týdne</td>
+                    <th scope="row">10:00</th>
+                    <td>Po stopach zlocincu</td>
+                    <td>To je vrazda</td>
                 </tr>
-
             </tbody>
         </table>
-
+    
     </body>
 </html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tabulka s pavlíkem</title>
+    </head>
+    <style>
+        table, td, th{
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        thead{
+            border-bottom: 5px solid red;
+            background-color: yellow;
+        }
+        tbody th{
+            border-right: 5px solid red;
+        }
+        th, td{
+            padding: 10px;
+        }
+        #pravyokraj{
+            border-right: solid 5px red;
+        }
+        td{
+            text-align: right;
+            width: 150px;
+        }
+        td:hover{
+            text-align: left;
+            transition: cubic-bezier(0.23, 1, 0.320, 1);
+        }
+        caption{
+            border: 1px solid black;
+        }
+        ol{
+            
+        }
+        ol li ul li ol li{
+            background-color: rgb(208, 158, 255);
+            border: 1px solid black;
+            width: 50px;
+            padding: 3px;
+            margin: 3px;
+        }
+        a{
+            text-decoration: overline;
+            color: black;
+        }
+        a:hover{
+            padding: 3px;
+            background-color: aliceblue;
+            color: blanchedalmond;
+            text-decoration: none;
+            font-size: 30px;
+        }
+        a:visited{
+            color: red;
+            background-color: aqua;
+        }
+    </style>
+
+    <body>
+
+        <table>
+            <caption>Martinek</caption>
+
+            <thead>
+                <tr>
+                    <th scope="col">Cas</th>
+                    <th scope="col">Pondeli</th>
+                    <th scope="col">Utery</th>
+                    <th scope="col">Streda</th>
+                    <th scope="col">Patek</th>
+                </tr>
+            </thead>
+
+            <tbody>
+    
+                <tr>
+                    <th>8:00</th>
+                    <td> Surivor </td>
+                    <td> Peceni s hasalem </td>
+                    <td> Matika se sustekm </td>
+                    <td> herak na heraku </td>
+                </tr>
+    
+            <tr>
+                <th>9:00</th>
+                <td>koks</td>
+                <td>herak</td>
+                <td>drogs</td>
+                <td>mgos</td>
+            </tr>
+    
+            <tr>
+                <th>10:00</th>
+                <td> Surivor </td>
+                <td> Peceni s hasalem </td>
+                <td> Matika se sustekm </td>
+                <td> herak na heraku </td>
+            </tr>
+    
+            <tr>
+                <th>11:00</th>
+                <td>koks</td>
+                <td>herak</td>
+                <td>drogs</td>
+                <td>mgos</td>
+            </tr>
+
+            </tbody>
+        </table>
+
+
+        <ol>
+            <li>jedna
+                <ul>
+                    <li>1.1</li>
+                    <li>1.2</li>
+                </ul>
+            </li>
+            <li>dva</li>
+            <li>tři
+                <ul>
+                    <li>3.1
+                        <ol>
+                            <li>3.1.1</li>
+                            <li><a href="#odkaz">odkaz</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            <li>čtyři</li>
+        </ol>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+        <h2 id="odkaz">Nadpis2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, aliquid facere adipisci, repellendus facilis, minus recusandae deleniti odio totam quam quia? Consequatur ex labore amet magnam repudiandae eveniet veniam? Aspernatur!</p>
+
+    </body>
+</html>

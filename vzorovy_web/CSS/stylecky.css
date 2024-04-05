@@ -1,0 +1,9 @@
+.levy{
+    width: 50%;
+    float: left;
+}
+.pravy{
+    width: 45px;
+    float: right;
+    border-left: 2px solid blue;
+}

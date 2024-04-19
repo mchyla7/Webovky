@@ -65,7 +65,7 @@ main{
     overflow: auto;
 }
 
-footer p{
+footer{
     text-align: center;
     background-color:lightskyblue;
     padding: 10px;
@@ -73,7 +73,7 @@ footer p{
 
 .zalomeni{
     white-space: pre;
-    line-hight: 2;
+    line-height: 2;
 }
 
 .pravy{
@@ -82,14 +82,28 @@ footer p{
     border-left: 2px solid #001219;
 }
 
-table{
-    border-collapse: collapse;
-    width: 400px;
+h3 {
+    color: #001219;
+    margin: 10px 0px;
 }
-td,th {
-    border: 2px solid #001219;
-    padding: 5px;
+
+.obtekani1{
+    float: right;
+    margin: 0px 10px 10px 10px;
 }
-thead{
-    background-color: grey;
+
+.obtekani2{
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+.neobtekat{
+    clear: both;
+}
+
+main ul li {
+    list-style-image: url(../obrazky/odrazka.gif);
+    line-height: 2;
+    margin-left: 20px;
+    padding-left: 10px;
 }

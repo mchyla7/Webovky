@@ -3,7 +3,7 @@
     float: left;
 }
 .pravy{
-    width: 45px;
+    width: 45%;
     float: right;
     border-left: 2px solid blue;
 }

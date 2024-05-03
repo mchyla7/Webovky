@@ -1,0 +1,23 @@
+.fotogalerie {
+    width: 90%;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.obrazek {
+    float: right;
+    margin-left: 35.6px;
+}
+img {
+    border: 5px solid white
+}
+main {
+    background-color: beige;
+}
+main p {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    padding: 10px 0px;
+
+}

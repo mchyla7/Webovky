@@ -35,7 +35,7 @@ nav ul{
     list-style-type: none;
     text-decoration: none;
 }
-nav a{
+nav a, aside a, main a{
     text-decoration: none;
     color:black;
 
@@ -50,7 +50,7 @@ nav  li{
     padding: 3px;
 }
 
-nav a:hover{
+nav a:hover aside a:hover{
     color:greenyellow; 
 }
 
@@ -106,4 +106,10 @@ main ul li {
     line-height: 2;
     margin-left: 20px;
     padding-left: 10px;
+}
+
+.clearfix {
+    clear: both;
+    content: "";
+    display: table;
 }

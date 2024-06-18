@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  margin-top: 10px;
+  padding-bottom:10px;
+  font-size: 16px;
+  font-family: Verdna, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+
+header {                    
+ height: 80px;
+ font-size: 32px;  
+ padding: 10px;
+  }
+
+nav ul {     
+      height: 30px;
+      padding-bottom: 2px;
+  }
+
+nav li {
+   margin: 5px 0px ;
+   text-align: center;
+   display: inline-block;
+   width: 30%;
+   text-align: center;
+  }  
+
+nav a { 
+   display: block;
+      } 
+
+main {
+	max-height: 450px;
+	min-height: 500px;
+	overflow: auto;
+  padding: 25px;
+  }
+  
+p {
+ text-align: justify;
+ padding:  10px 0px;
+  }
+ 
+ .clearfix {
+ clear: both;
+ content: "";
+ display: table;
+  }
+
+#container{
+  width: 1024px;
+  margin: 0 auto;
+  border: 1px solid green;
+  background-image: url(/img/pozadi.jpg);
+  margin: 20px;
+}
+header{
+  font-weight: bold;
+}
+header p {
+  text-align: right;
+  color: green;
+  font-size: 20px;
+}
+span{
+  word-spacing: 5px;
+}
+nav {
+  background-color: green;
+  font-weight: bold;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+nav a:hover{
+  color: red;
+}
+h1, h3{
+  color: green;
+  border-bottom: 2px solid green;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+h1{
+  text-align: center;
+
+}
+footer{
+  background-color: green;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.levo{
+  width: 30%;
+  border-right: 2px solid green;
+  padding-right: 50px;
+  padding-top: 25 px;
+  float: left;
+}
+.pravo{
+  width: 60%;
+  float: right;
+}
+ul{
+  padding-left: 50px;
+  
+}
+ul li{
+  list-style-type: square;
+  margin: 10px;
+}
+ul li ul li{
+  list-style-type: circle;
+  font-weight: bold;
+  
+}
+.obrazek{
+  margin-bottom: 40px;
+  padding-left: 50px;
+}
+.ramecek{
+  border: 1px solid green;
+  padding: 10px;
+}
+.ramecek img{
+  float: right;
+  padding: 10px;
+
+}
+
